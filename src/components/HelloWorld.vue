@@ -26,10 +26,27 @@ const count = ref(0);
     |
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
-
-  <button type="button" class="btn btn-primary rounded-full" @click="count++">
-    count is: {{ count }}
-  </button>
+  <div class="flex flex-col p-4 space-y-4 justify-center">
+    <button
+      type="button"
+      class="btn btn-primary rounded-full"
+      @click="count++"
+      data-theme="light"
+    >
+      count is: {{ count }}
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary rounded-full"
+      @click="count++"
+      data-theme="dark"
+    >
+      count is: {{ count }}
+    </button>
+    <button type="button" class="btn btn-primary rounded-full" @click="count++">
+      count is: {{ count }}
+    </button>
+  </div>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
