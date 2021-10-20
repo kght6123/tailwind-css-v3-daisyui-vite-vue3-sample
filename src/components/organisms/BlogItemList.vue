@@ -3,7 +3,7 @@ import CardItem from "../molcules/CardItem.vue";
 </script>
 
 <template>
-  <div class="flex w-full px-4 py-10 bg-base-200 flex-wrap">
+  <div class="flex w-full px-4 py-4 bg-base-200 flex-wrap">
     <CardItem />
     <CardItem />
     <CardItem />

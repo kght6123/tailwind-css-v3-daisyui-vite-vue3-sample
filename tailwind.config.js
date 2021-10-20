@@ -6,7 +6,7 @@ module.exports = {
       colors: require("daisyui/colors"),
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [/*require("@tailwindcss/typography"),*/ require("daisyui")],
   daisyui: {
     // styled: false,
     // themes: false,
